@@ -397,3 +397,6 @@ PRODUCT_BOOT_JARS += \
 
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/msm8998-common/msm8998-common-vendor.mk)
+
+# Droidmedia: We need this for video recorder to be fixed.
+MINIMEDIA_AUDIOPOLICYSERVICE_ENABLE := 1
