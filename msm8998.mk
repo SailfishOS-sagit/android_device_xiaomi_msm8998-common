@@ -288,6 +288,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.power@1.1-service-qti
 
+## Power off charging mode
+PRODUCT_PACKAGES += \
+    charger_res_images
+
 # Properties
 include $(LOCAL_PATH)/vendor_prop.mk
 
